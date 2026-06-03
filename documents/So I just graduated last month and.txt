@@ -1,0 +1,99 @@
+So I just graduated last month and honestly? What a ride. When I started college I was completely lost. Had zero clue about time management, studying properly, research, any of that stuff. I basically learned everything the hard way through trial and error.
+
+But here's the thing. I found some apps along the way that literally saved my butt. And I'm not talking about the obvious ones everyone mentions like Notion or Grammarly. These are the random apps that nobody really talks about but they kept me from completely falling apart.
+
+If you're struggling right now, seriously just try one of these. I wish someone told me about them way earlier.
+
+1. PDFMaster. by Cisdem: For dealing with PDFs
+
+Okay so my professors had this annoying habit of sending us these massive scanned PDFs that you couldn't search through. Like 100+ page book chapters where you had to scroll forever to find anything. It was driving me crazy.
+
+This app lets you make those unsearchable PDFs actually searchable and you can highlight stuff and edit them too. I stopped printing everything out (saved so much money on paper lol) and just worked on my laptop.
+
+Feature	How I Used It
+OCR (Optical Character Recognition)	Made blurry scanned documents searchable so I could actually use Ctrl+F
+PDF Editing & Annotating	Could highlight and add my own notes right on the document without printing
+File Conversion	Converted lecture slides from PDF to PowerPoint so I could add my own notes to them easily.
+Merge & Split	Merged 15 research articles into one "master document" for an exam. Split a huge textbook PDF by chapter.
+Form Filling & Signing	Filled out and signed internship applications and financial aid forms without ever touching a printer.
+2. Joplin: For Note Taking
+
+I used Google Docs for everything at first. It worked but my notes were all over the place. I could never find anything and half the time I forgot what I even wrote.
+
+Joplin isn't pretty or anything but it's really simple to use. You can make different notebooks and link your ideas together. I started using it during my senior project when I had random thoughts all the time and needed to keep track of everything.
+
+Feature	How I Used It
+Local Notebook Storage	Wrote all my notes offline without needing internet.
+Markdown Editor	Typed fast without clicking buttons or fixing weird formatting.
+Tags and Links	Linked ideas across topics — great for essays and research.
+Web Clipper	Saved web articles and papers directly into my notes.
+Sync Across Devices	Took notes on my laptop and reviewed them on my phone during commutes.
+3. TickTick: For Task Management
+
+I tried so many to-do apps and most of them just made me feel bad because I never finished my whole list. TickTick was different though. It didn't make me feel guilty and I could actually use it for both daily stuff and long term projects.
+
+Started using it junior year because I kept forgetting quiz dates and group meeting times. Used it all the way through graduation.
+
+Feature	How I Used It
+Daily Task Lists	Created quick lists for each day’s workload.
+Calendar View	Planned assignments and exams all in one place.
+Reminders & Notifications	Got pinged before every quiz or group call.
+Subtasks	Broke big essays into small, manageable pieces.
+Pomodoro Timer	Focused using the built-in timer when I didn’t want to study at all.
+4. Tactiq: For Online Lecture Transcripts
+
+I had a 9 AM stats class that I barely stayed awake for. I would open Zoom, record the lecture, and then… forget everything. Tactiq helped me by giving me real-time transcripts during Zoom calls. I didn’t even need to install anything complicated.
+
+Feature	How I Used It
+Zoom Transcript Capture	Got real-time notes during class without typing.
+Speaker Labels	Saw who said what during group calls.
+Keyword Highlight	Marked key terms that were likely to be on the test.
+Export to Google Docs	Saved everything and shared with classmates when needed.
+Searchable Transcript	Found exact moments from long lectures in seconds.
+5. LightBulb: To Protect Eyes
+
+Found this one during midterms when my eyes felt like they were burning. I was writing papers until like 2 or 3 AM and staring at this bright white screen the whole time. After I got LightBulb the screen would gradually get warmer at night and I actually started sleeping better.
+
+Maybe it's just placebo effect but I don't care. My eyes stopped hurting and I fell asleep faster. Never turned it off after that.
+
+Feature	How I Used It
+Automatic Color Shift	Warmed up screen color after sunset so my brain could relax.
+Custom Schedule	Set the time for screen brightness changes.
+Manual Override	Paused it when I edited photos or needed color accuracy.
+Runs in Background	Forgot it was on after the first few days. It just worked.
+6. Nimbus Capture: For Screenshots
+
+I used Nimbus to capture slides during online lectures, screenshots from research papers, or feedback from instructors. Way better than the basic screenshot tool. It let me mark stuff up, save to folders, and even record video if I needed to show something.
+
+Feature	How I Used It
+Screenshot with Notes	Took clear screenshots of lecture slides and added comments right away.
+Record Screen + Audio	Recorded walkthroughs during group presentations or demo submissions.
+Full-Page Web Capture	Saved whole articles from research sites for later reading.
+Folder Organization	Sorted screenshots by class (e.g., "Econ Slides," "Thesis Drafts").
+Cloud or Local Save	Chose where to store them - either online or on my laptop.
+7. Notebloc: For Scanning Notes
+
+I still write notes by hand because that's just how I learn best. But during finals I always needed digital copies to read on my iPad while commuting or whatever. This app scans your notebook pages with your phone and makes clean PDFs. Way better than just taking random photos.
+
+Feature	How I Used It
+Document Scanner	Scanned full notebook pages into PDFs. No need to type notes again.
+Smart Cropping	Fixed shadows and edges. Made it look like a clean scan, not a photo.
+Cloud Export	Saved notes directly to Google Drive and shared with friends if needed.
+Batch Scan	Scanned 10–15 pages quickly before group study sessions.
+No Watermark	Used the free version without ugly watermarks.
+Look, these apps aren't flashy or trendy. Most people probably haven't heard of them. But they actually made my college life so much easier. They saved me from missing deadlines, getting lost in huge PDF files, and retyping the same stuff over and over.
+
+Just try one of them. Seriously. It might save you a few hours, your whole weekend, or maybe even your GPA.
+
+If you guys have other random tools that helped you get through college, comment below. Other students could probably use the help.
+
+just so you know, you don't need LightBulb on windows to protect your eyes. Windows has a setting called "night light" that you can look up in the settings app, that will let you set a timer to turn on warm colors to help you sleep.
+As someone who is starting university in the spring, this was helpful! Never heard of PDF Master (bookmarked) and already have Tick Tick (which is fantastic), but the others I already have apps for, which thankfully were on sale for Black Friday. So if anyone is looking for alternatives, see below!
+
+- Note Taking: Bear
+
+- Transcription: Transcript X
+
+- Screenshot: Cleanshot X
+
+- Scanning: Preview (Native Apple App)
