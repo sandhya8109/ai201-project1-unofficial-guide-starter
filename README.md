@@ -14,16 +14,16 @@ This knowledge is valuable because it reflects real student experience, not inst
 
 | # | Source | Type | URL or file path |
 |---|--------|------|-----------------|
-| 1 | Get comfortable with using an onlin.txt | Reddit thread | documents/Get comfortable with using an onlin.txt |
-| 2 | dormroom.txt | Reddit thread | documents/dormroom.txt |
-| 3 | Free Stuff for College Students.txt | Blog article | documents/Free Stuff for College Students.txt |
-| 4 | So I just graduated last month and.txt | Blog post | documents/So I just graduated last month and.txt |
-| 5 | Find somewhere where you can get go.txt | Personal blog | documents/Find somewhere where you can get go.txt |
-| 6 | 25 Tips to Help You Survive and Thr.txt | Listicle article | documents/25 Tips to Help You Survive and Thr.txt |
-| 7 | If you are a first year or going in.txt | Personal blog | documents/If you are a first year or going in.txt |
-| 8 | The prospect of moving to an entire.txt | Personal blog | documents/The prospect of moving to an entire.txt |
-| 9 | reddit_freshman_advice.md | Reddit thread | documents/reddit_freshman_advice.md |
-| 10 | reddit_dorm_tips.txt | Reddit thread | documents/reddit_dorm_tips.txt |
+| 1 | reddit_time_management.txt | Reddit thread | documents/reddit_time_management.txt |
+| 2 | reddit_roommate_experiences.txt | Reddit thread | documents/reddit_roommate_experiences.txt |
+| 3 | blog_free_stuff_discounts.txt | Blog article | documents/blog_free_stuff_discounts.txt |
+| 4 | blog_useful_apps.txt | Blog post | documents/blog_useful_apps.txt |
+| 5 | blog_general_survival_tips.txt | Personal blog | documents/blog_general_survival_tips.txt |
+| 6 | blog_25_freshman_tips.txt | Listicle article | documents/blog_25_freshman_tips.txt |
+| 7 | blog_firstyear_advice.txt | Personal blog | documents/blog_firstyear_advice.txt |
+| 8 | blog_making_friends.txt | Personal blog | documents/blog_making_friends.txt |
+| 9 | reddit_freshman_advice.txt | Reddit thread | documents/reddit_freshman_advice.txt |
+| 10 | reddit_dorm_packing.txt | Reddit thread | documents/reddit_dorm_packing.txt |
 
 ---
 
@@ -46,19 +46,19 @@ The chunking strategy splits by paragraph first (since these documents use line 
 
 ## Sample Chunks
 
-**Chunk 1** (source: reddit_dorm_tips.txt)
+**Chunk 1** (source: reddit_dorm_packing.txt)
 > "College is a Petri dish, get medicine. Cough/cold, fever, pain reliever, nasal spray if needed, vapor rub, anti diarrheal/stomach relief medicine, cough drops."
 
-**Chunk 2** (source: dormroom.txt)
+**Chunk 2** (source: reddit_roommate_experiences.txt)
 > "Expectations for sleeping is actually really important - what time you/they go to bed and get up, alarm noises and if that will make a difference, how dark or quiet you or they need the room to be. It's really important to get good sleep in college."
 
-**Chunk 3** (source: The prospect of moving to an entire.txt)
+**Chunk 3** (source: blog_making_friends.txt)
 > "The prospect of moving to an entirely new place and rebuilding your social circle from scratch is a pretty scary one, especially if social situations tend to stress you out. With that said, making new friends and putting yourself out there is one of the most rewarding experiences that college has to offer."
 
-**Chunk 4** (source: 25 Tips to Help You Survive and Thr.txt)
+**Chunk 4** (source: blog_25_freshman_tips.txt)
 > "Don't procrastinate; prioritize your life. It may have been easy in high school to wait until the last minute to complete an assignment and still get a good grade, but that kind of stuff will not work for you in college. Give yourself deadlines and stick to them."
 
-**Chunk 5** (source: Free Stuff for College Students.txt)
+**Chunk 5** (source: blog_free_stuff_discounts.txt)
 > "Students get Amazon Prime free for six months. This includes free two-day shipping on over 100 million items including textbooks, unlimited streaming of Prime movies and TV shows, and 20% off pre-order and new release video games."
 
 ---
@@ -79,25 +79,25 @@ For a real deployment serving thousands of students, several tradeoffs would nee
 **Query 1: "What medicine should I pack for my dorm?"**
 
 Top returned chunks:
-- `reddit_dorm_tips.txt`: "College is a Petri dish, get medicine. Cough/cold, fever, pain reliever, nasal spray if needed, vapor rub, anti diarrheal/stomach relief medicine, cough drops." (distance: 0.801)
-- `reddit_dorm_tips.txt`: "magnesium, iron, d4, multivitamins. I carried all of this and although it seems like an excess I have not yet had to ask a friend for medicine." (distance: 0.935)
-- `reddit_dorm_tips.txt`: "First aid kit - just a basic one, no need for a tourniquet. But having neosporin, bandaids, gauze, gloves can help if someone gets hurt in the dorms." (distance: 1.02)
+- `reddit_dorm_packing.txt`: "College is a Petri dish, get medicine. Cough/cold, fever, pain reliever, nasal spray if needed, vapor rub, anti diarrheal/stomach relief medicine, cough drops." (distance: 0.801)
+- `reddit_dorm_packing.txt`: "magnesium, iron, d4, multivitamins. I carried all of this and although it seems like an excess I have not yet had to ask a friend for medicine." (distance: 0.935)
+- `reddit_dorm_packing.txt`: "First aid kit - just a basic one, no need for a tourniquet. But having neosporin, bandaids, gauze, gloves can help if someone gets hurt in the dorms." (distance: 1.02)
 
 These chunks are directly relevant — all three come from the dorm packing document and contain specific medicine recommendations. The retrieval correctly identified the right source document for this query.
 
 **Query 2: "How do I make friends in college if I'm shy?"**
 
 Top returned chunks:
-- `The prospect of moving to an entire.txt`: "...sometimes you have to be the first one to seem approachable. Asking about someone's day or even just a quick 'hi' will let people know that you're friendly." (distance: 0.801)
-- `The prospect of moving to an entire.txt`: "...socializing becomes a little bit less intimidating. Friendliness = Friendship. Know that people want to make friends, so don't be afraid to be overly social." (distance: 0.901)
+- `blog_making_friends.txt`: "...sometimes you have to be the first one to seem approachable. Asking about someone's day or even just a quick 'hi' will let people know that you're friendly." (distance: 0.801)
+- `blog_making_friends.txt`: "...socializing becomes a little bit less intimidating. Friendliness = Friendship. Know that people want to make friends, so don't be afraid to be overly social." (distance: 0.901)
 
 Both chunks are highly relevant and come from the correct document about social anxiety in college. The retrieval correctly matched a query about shyness to content about overcoming social nervousness.
 
 **Query 3: "What free stuff can college students get?"** *(partial failure)*
 
 Top returned chunks:
-- `Free Stuff for College Students.txt`: introductory paragraph about student discounts (distance: 0.823)
-- `Free Stuff for College Students.txt`: Amazon Prime section (distance: 0.891)
+- `blog_free_stuff_discounts.txt`: introductory paragraph about student discounts (distance: 0.823)
+- `blog_free_stuff_discounts.txt`: Amazon Prime section (distance: 0.891)
 
 The correct document was retrieved, but only the intro and Amazon section were returned. Chunks containing Microsoft Office, Spotify, YNAB, and public transit discounts were not ranked in the top 4. This is explained in the Failure Case Analysis below.
 
@@ -116,7 +116,7 @@ At the end of your answer, always list the sources you drew from under a "Source
 ```
 
 **How source attribution is surfaced in the response:**
-Each retrieved chunk is passed to the LLM with its source filename labeled inline: `[1] (Source: reddit_dorm_tips.txt)`. The system prompt instructs the model to list sources at the end of every response. Additionally, the `query.py` function programmatically extracts the source filenames from retrieved chunk metadata and returns them in the `sources` field, which the Gradio UI displays in a separate "Retrieved from" box — independent of what the LLM writes. This means source attribution is guaranteed structurally, not just hoped for from the model.
+Each retrieved chunk is passed to the LLM with its source filename labeled inline: `[1] (Source: reddit_dorm_packing.txt)`. The system prompt instructs the model to list sources at the end of every response. Additionally, the `query.py` function programmatically extracts the source filenames from retrieved chunk metadata and returns them in the `sources` field, which the Gradio UI displays in a separate "Retrieved from" box — independent of what the LLM writes. This means source attribution is guaranteed structurally, not just hoped for from the model.
 
 ---
 
@@ -138,7 +138,7 @@ Each retrieved chunk is passed to the LLM with its source filename labeled inlin
 
 **What the system returned:** A vague answer mentioning only Amazon Prime and general categories like "student discounts on computers and clothes." The specific items in the source document — Microsoft Office (free with school email), Spotify ($6.99/month after trial), YNAB (free for a year), public transit passes, and museum admission — were not included.
 
-**Root cause (tied to a specific pipeline stage):** This is a retrieval failure. The source document `Free Stuff for College Students.txt` is structured as a long list where each item is a short separate paragraph. After paragraph-based chunking, each item became its own small chunk (~100–200 characters). When the query "what free stuff can college students get" was embedded, it matched most strongly against the document's introductory paragraph — which uses nearly that exact phrasing — and the Amazon Prime section. The other items use different vocabulary (e.g., "eligible institutions," "valid college email address," "six months of free access") that didn't match the query embedding closely enough to rank in the top 4 results. With k=4, there wasn't room to surface the full list.
+**Root cause (tied to a specific pipeline stage):** This is a retrieval failure. The source document `blog_free_stuff_discounts.txt` is structured as a long list where each item is a short separate paragraph. After paragraph-based chunking, each item became its own small chunk (~100–200 characters). When the query "what free stuff can college students get" was embedded, it matched most strongly against the document's introductory paragraph — which uses nearly that exact phrasing — and the Amazon Prime section. The other items use different vocabulary (e.g., "eligible institutions," "valid college email address," "six months of free access") that didn't match the query embedding closely enough to rank in the top 4 results. With k=4, there wasn't room to surface the full list.
 
 **What you would change to fix it:** Two approaches would help. First, increasing k to 6 or 8 for this type of query would bring in more chunks from the same document. Second, storing the entire free stuff list as a single larger chunk (rather than splitting each item separately) would mean a single retrieval hit captures all the items at once. This is a case where the general chunking strategy (optimized for tip-style advice) didn't fit a list-structured document well.
 
